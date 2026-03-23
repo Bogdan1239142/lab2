@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - Богдан Бач</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f3f6fb;
+        --card: #ffffff;
+        --text: #1f2937;
+        --muted: #4b5563;
+        --accent: #2563eb;
+        --border: #dbe3f0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        line-height: 1.6;
+        color: var(--text);
+        background: linear-gradient(160deg, #eef3ff 0%, var(--bg) 100%);
+      }
+
+      header,
+      main,
+      footer {
+        width: min(900px, 92%);
+        margin: 0 auto;
+      }
+
+      header {
+        margin-top: 28px;
+        padding: 28px;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+      }
+
+      h1,
+      h2 {
+        margin: 0 0 10px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      header p {
+        margin: 0;
+        color: var(--accent);
+        font-weight: 600;
+      }
+
+      main {
+        margin-top: 18px;
+        display: grid;
+        gap: 14px;
+      }
+
+      section,
+      footer {
+        padding: 22px 24px;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 20px;
+      }
+
+      li + li {
+        margin-top: 8px;
+      }
+
+      p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      p + p {
+        margin-top: 10px;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      footer {
+        margin: 14px auto 28px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Богдан Бач</h1>
+      <p>Frontend Developer (Junior)</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Про мене</h2>
+        <p>
+          Я початківець веброзробник, вивчаю HTML, CSS, JavaScript і React.
+          Люблю створювати зрозумілі інтерфейси та постійно розвивати навички.
+        </p>
+      </section>
+
+      <section>
+        <h2>Досвід роботи</h2>
+        <ul>
+          <li>
+            <p><strong>Стажер Frontend Developer</strong> — WebStart Studio (2025)</p>
+            <p>
+              Верстав сторінки на HTML, брав участь у доопрацюванні компонентів
+              та виправленні UI-помилок.
+            </p>
+          </li>
+          <li>
+            <p><strong>Фриланс-проєкти</strong> (2024–2026)</p>
+            <p>
+              Розробляв невеликі лендинги та форми зворотного зв'язку для
+              навчальних і особистих проєктів.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Освіта</h2>
+        <p>НУ "Львівська Політехніка", спеціальність "Кібербезпека", 2023–2027.</p>
+      </section>
+
+      <section>
+        <h2>Навички</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3 (базовий рівень)</li>
+          <li>JavaScript (ES6+)</li>
+          <li>React (базовий рівень)</li>
+          <li>Git і GitHub</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <h2>Контакти</h2>
+      <p>
+        Email:
+        <a href="mailto:bogdan.bach@gmail.com"
+          >bogdan.bach@gmail.com</a
+        >
+      </p>
+      <p>
+        GitHub:
+        <a href="https://github.com/Bogdan1239142" target="_blank" rel="noopener noreferrer"
+          >github.com/Bogdan1239142</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

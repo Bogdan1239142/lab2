@@ -1,0 +1,99 @@
+:root {
+  color-scheme: light;
+  --bg: #f3f6fb;
+  --card: #ffffff;
+  --text: #1f2937;
+  --muted: #4b5563;
+  --accent: #2563eb;
+  --border: #dbe3f0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text);
+  background: linear-gradient(160deg, #eef3ff 0%, var(--bg) 100%);
+}
+
+.cv-app header,
+.cv-app main,
+.cv-app footer {
+  width: min(900px, 92%);
+  margin: 0 auto;
+}
+
+.cv-app header {
+  margin-top: 28px;
+  padding: 28px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+.cv-app h1,
+.cv-app h2 {
+  margin: 0 0 10px;
+}
+
+.cv-app h1 {
+  font-size: 2rem;
+}
+
+.cv-app header p {
+  margin: 0;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.cv-app main {
+  margin-top: 18px;
+  display: grid;
+  gap: 14px;
+}
+
+.cv-app section,
+.cv-app footer {
+  padding: 22px 24px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+}
+
+.cv-app ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.cv-app li + li {
+  margin-top: 8px;
+}
+
+.cv-app p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.cv-app p + p {
+  margin-top: 10px;
+}
+
+.cv-app a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.cv-app a:hover {
+  text-decoration: underline;
+}
+
+.cv-app footer {
+  margin: 14px auto 28px;
+}
